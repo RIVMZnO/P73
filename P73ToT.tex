@@ -6,7 +6,7 @@
 ]{book}
 \title{Guide for Trainers - COVID-19 Lebanon}
 \author{Robert ten Hove}
-\date{2021-07-06}
+\date{2021-07-09}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -73,6 +73,8 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
+\let\oldmaketitle\maketitle
+\AtBeginDocument{\let\maketitle\relax}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -89,6 +91,14 @@
 \fi
 
 \begin{document}
+\maketitle
+
+\thispagestyle{empty}
+\begin{center}
+\includegraphics{frontpage_p73.pdf}
+\end{center}
+
+\let\maketitle\oldmaketitle
 \maketitle
 
 {
@@ -174,7 +184,7 @@ reduce aerosol transmission within the population must be implemented,
 which include universal masking and regular, widespread testing to
 identify and isolate infected symptomatic and asymptomatic individuals.
 
-\includegraphics{images/covid19_ME.png}
+\includegraphics{images/covid19_ME_210709.png}
 
 \emph{Source: \href{https://ourworldindata.org/coronavirus}{Our world in data}}
 
@@ -2367,10 +2377,11 @@ How would others handle certain situations? \\
 \end{longtable}
 
 \hypertarget{appendix-i---list-materials}{%
-\section{Appendix I - list materials}\label{appendix-i---list-materials}}
+\chapter*{Appendix I - list materials}\label{appendix-i---list-materials}}
+\addcontentsline{toc}{chapter}{Appendix I - list materials}
 
 \hypertarget{material-supplies-and-kits-for-demonstration-and-practical}{%
-\subsection{Material, supplies and kits for demonstration and practical}\label{material-supplies-and-kits-for-demonstration-and-practical}}
+\section{Material, supplies and kits for demonstration and practical}\label{material-supplies-and-kits-for-demonstration-and-practical}}
 
 The following items are required for the practical training:
 
