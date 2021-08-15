@@ -43,3 +43,7 @@ design-test-site
 setup-test-site
 simulate-test-site
 material-supplies-and-kits-for-demonstration-and-practical
+FAQ
+definitions
+algorithm
+testing
